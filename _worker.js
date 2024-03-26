@@ -5,7 +5,7 @@ import { connect } from 'cloudflare:sockets';
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '9a94bd87-3ef9-479d-b337-00a195ec7d26';
-let proxyIP = "tci.mcicfg.com";
+let proxyIP = "188.114.96.232";
 
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
@@ -162,7 +162,7 @@ async function vlessOverWSHandler(request) {
             const {
                 hasError,
                 message,
-                portRemote = 443,
+                portRemote = 1012,
                 addressRemote = '',
                 rawDataIndex,
                 vlessVersion = new Uint8Array([0, 0]),
