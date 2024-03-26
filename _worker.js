@@ -761,7 +761,7 @@ ${vlessLink}
 下面是 TLS 端口的节点信息及分享链接，可使用 CF 支持的 TLS 端口：
 
 地址：${hostName} 或 CF 优选 IP
-端口：443 或 CF 支持的 TLS 端口
+端口：1018 或 CF 支持的 TLS 端口
 UUID：${userID}
 传输：ws
 传输层安全：TLS
